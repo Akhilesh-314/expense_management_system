@@ -1,0 +1,49 @@
+.register-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+
+.register-form{
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    padding: 20px;
+    width: 30%;
+}
+
+.register-form h1{
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #b87333;
+}
+
+.register-form .ant-form-item-label label{
+    color: #344265 !important;
+    font-size: 20px;
+}
+
+.register-form a{
+    color: #b87333 !important;
+}
+
+.register-form a:hover{
+    color: black !important;
+}
+
+.register-form button{
+    background-color: #b87333;
+    color: white;
+    border: none;
+}
+
+.register-form button:hover{
+    background-color: black;
+    color: white;
+}
+
+.register-form input:focus{
+    border: 1px solid #b87333 !important;
+    color: #b87333;
+}

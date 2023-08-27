@@ -1,0 +1,51 @@
+.login-container{
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);  
+}
+.login-container h1{
+    line-height: 20vh;
+}
+.login-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.login-form{
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    padding: 20px;
+    width: 30%;
+}
+
+.login-form h2{
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #b87333;
+}
+
+.login-form .ant-form-item-label label{
+    color: #344265 !important;
+    font-size: 20px;
+}
+
+.login-form button{
+    background-color: #344265;
+    color: white;
+    border: none;
+}
+
+.login-form button:hover{
+    background-color: black;
+    color: white;
+}
+
+.login-form a{
+    color: #344265 !important;
+}
+
+.login-form a:hover{
+    color: black !important;
+}
